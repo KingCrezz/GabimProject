@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script.js"></script>
+</head>
+<body class="login-page">
+    <div class="login-container">
+        <form>
+        <img src="/image/logo.png" width="150px" class="center">
+        <h2>Login</h2>
+        <label for="username"><b>Username</b></label>
+        <input type="text" class="login-input" placeholder="Enter Username" id="username" required>
+
+        
+        <label for="password"><b>Password</b></label>
+        <input type="password" class="login-input" placeholder="Enter Password" id="password" required>
+        <input type="checkbox" onclick="showpwd()">Show Password 
+        <button id="btn" type="submit" class="login-button" onclick="validate()">Login</button>
+        <div class="bawah">
+        <a href="/signup.html">Daftar</a>
+        <a href="/reset-password.html">Lupa Password?</a>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/form_pengaduan.css" />
+    <title>Form Pengaduan</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg border-bottom border-body"
+      data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="image/logo.png"
+            alt="logo"
+            width="50"
+            height="50"
+            style="border-radius: 50px"
+          />
+        </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+                style="color: white"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="komunitas.html" style="color: white">Komunitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form_pengaduan.html" style="color: white">Pengaduan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html" style="color: white">Tentang</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a
+              href="masuk.html"
+              class="btn btn-light"
+              style="margin-right: 10px"
+              type="submit"
+              >Masuk</a
+            >
+            <a href="daftar.html" class="btn btn-light" type="submit">Daftar</a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <section class="form">
+      <div class="content">
+        <h1 class="text-center mb-5">Form Pengaduan</h1>
+
+        <h5>Identitas Pelapor</h5>
+        <div class="pelapor">
+          <div class="d-flex flex-column gap-2 mb-2">
+            <label for="">Nama Lengkap</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">No Identitas</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">Jenis Kelamin</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">Alamat Lengkap</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">Alamat Email</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">No HP</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+        </div>
+
+        <h5 class="mt-4">Pengaduan</h5>
+        <div class="pelapor">
+          <div class="d-flex flex-column gap-2 mb-2">
+            <label for="">Ringkasan Pengaduan</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">Lokasi Kejadian</label>
+            <input type="text" class="w-50 ps-2" />
+          </div>
+        </div>
+        <h5 class="mt-4">Dokumen Tambahan</h5>
+        <div class="pelapor">
+          <div class="d-flex flex-column gap-2 mb-2">
+            <label for="">Lokasi Kejadian</label>
+            <input type="file" class="w-50" />
+          </div>
+          <div class="d-flex flex-column gap-2 my-2">
+            <label for="">Kronologis</label>
+            <input type="file" class="w-50" />
+          </div>
+        </div>
+        <p class="btn btn-primary mt-4">Kirim</p>
+      </div>
+    </section>
+
+    <footer class="w-100 p-5">
+      <div class="container d-flex">
+        <div class="contact text-white">
+          <p style="font-weight: bold" class="">Kontak Kami</p>
+          <p>Jalan Serah lu Dah</p>
+          <p>Jakarta, Indonesia</p>
+          <p>Email : Gabim@gmail.com</p>
+          <p>Telepon : +62-2345-1234</p>
+        </div>
+        <div class="sosmed text-white">
+          <p style="font-weight: bold" class="">Ikuti Kami</p>
+          <div class="d-flex my-2 gap-3 align-items-center">
+            <div>
+              <img src="image/facebook.png" width="30" alt="" />
+            </div>
+            <p style="margin: 0">Facebook</p>
+          </div>
+          <div class="d-flex my-2 gap-3 align-items-center">
+            <div>
+              <img src="image/twitter.png" width="30" alt="" />
+            </div>
+            <p style="margin: 0">Twitter</p>
+          </div>
+          <div class="d-flex my-2 gap-3 align-items-center">
+            <div>
+              <img src="image/ig.png" width="30" alt="" />
+            </div>
+            <p style="margin: 0">Instagram</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

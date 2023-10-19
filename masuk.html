@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      
+        body {
+            background-color: #f8f9fa; 
+            color: rgb(15, 13, 13);
+        }
+        .border-radius {
+            background-color: #fff; 
+            border-radius: 20px;
+            padding: 20px;
+            border: 2px solid #007bff; 
+        }
+        .btn-primary {
+            background-color: #007bff; 
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="ml-2 d-none d-lg-inline" style="color: white; font-size: 20pxpx; font-weight: bold; margin-left: 10px;">Gabim Website</span>
+            </a>              
+            <form class="d-flex">
+                <a href="daftar.html" class="btn btn-light" style="margin-right: 10px;" type="submit">Daftar</a>
+                <a href="index.html" class="btn btn-light" type="submit">Beranda</a>
+            </form>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="image/logo.png" width="450px" height="450px" alt="" style="border-radius: 450px; margin-left: 90px;">
+                <p></p>
+            </div>
+            <div class="col-md-4" style="margin-left: 200px; margin-top: 20px;">
+                <form class="border-radius p-3">
+                   <h3 style="text-align: center;">Masuk</h3> 
+                   <br>
+                   <div class="mb-3">
+                        <label for="username" class="form-label">Nama Pengguna</label>
+                        <input type="text" class="form-control" placeholder="Masukan Nama Pengguna" id="username" name="username" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Kata Sandi</label>
+                        <input type="password" class="form-control" placeholder="Masukan Kata Sandi" id="password" name="password" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check-label" for="remember">Ingatkan Aku</label>
+                        <a href="#" style="margin-left: 85px;">Lupa Password</a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Masuk</button>
+                    <br>
+                    <br>
+                    <div class="mb-3">
+                        <p style="text-align: center;">Atau masuk dengan:</p>
+                        <div style="text-align: center;">
+                            <img src="image/facebook.png" width="30px" height="30px" style="margin-right: 15px;" alt="">
+                            <img src="image/twitter.png" width="30px" height="30px" style="margin-right: 15px; margin-right: 5px;"alt="">
+                            <img src="image/gmail.png" width="30px" height="30px" style="margin-left: 15px;" alt="">
+                        </div>
+                    </div>
+                   </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
